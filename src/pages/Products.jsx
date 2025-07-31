@@ -34,7 +34,7 @@ const ProductsPage = () => {
              <div className="mt-auto flex gap-5 pt-4 justify-between">
             <button
                 onClick={() => addToCart(product)}
-                className=" px-2 bg-rose-600 text-white py-1 rounded text-sm hover:bg-rose-700 transition"
+                className=" px-1 md:px-2 bg-rose-600 text-white py-0.5 md:py-1 rounded text-sm hover:bg-rose-700 transition"
                 aria-label={`Add ${product.name} to cart`}
             >
             Add to Cart

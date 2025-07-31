@@ -27,7 +27,7 @@ const CheckoutPage = () => {
 
   return (
     <section className="max-w-6xl mx-auto p-4 md:p-10">
-      {/* Breadcrumb */}
+     
       <nav className="text-sm text-gray-500 mb-4">
         <Link to="/" className="hover:underline">Home</Link>
         <span className="mx-2">/</span>
