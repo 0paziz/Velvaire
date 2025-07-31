@@ -7,13 +7,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const slides = [
   {
-    image: '/b1.jpg',
+    image: '/b1.webp',
     heading: 'Elevate Your Style',
     text: 'Discover modern fashion for every occasion.',
     cta: 'Shop Now'
   },
   {
-    image: '/b2.jpg',
+    image: '/b2.webp',
     heading: 'Fresh Arrivals Just In',
     text: 'Be the first to shop our new seasonal collection.',
     cta: 'Explore'

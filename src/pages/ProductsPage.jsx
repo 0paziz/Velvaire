@@ -41,7 +41,7 @@ const ProductDetailsPage = () => {
 
       <div className="max-w-6xl mx-auto px-4 py-12 mt-2">
      
-      <div className="flex flex-row gap-8">
+      <div className="flex flex-col md:flex-row gap-8">
         <img
           src={product.image}
           alt={product.name}
@@ -92,7 +92,7 @@ const ProductDetailsPage = () => {
             </div>
           </div>
 
-          {/* Quantity Input */}
+      
           <div className="mt-6">
             <label className="block text-gray-700 mb-2 font-medium">Quantity:</label>
             <input
@@ -104,7 +104,7 @@ const ProductDetailsPage = () => {
             />
           </div>
 
-          {/* Action Buttons */}
+      
           <div className="mt-6 flex  gap-4">
             <button
               onClick={() => addToCart(enhancedProduct)}

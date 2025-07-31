@@ -28,7 +28,7 @@ function App() {
         <div className="flex flex-col min-h-screen">
           <Navbar />
 
-          <main className="flex-grow">
+          <main className="flex-grow overflow-hidden">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/product/:id" element={<ProductDetailsPage />} />
